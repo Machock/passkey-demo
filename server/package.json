@@ -1,0 +1,23 @@
+{
+  "name": "passkey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "cbor": "^9.0.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "node-cbor": "^5.0.4",
+    "passport": "^0.7.0",
+    "passport-fido2-webauthn": "^0.1.0",
+    "pbkdf2-password": "^1.2.1",
+    "uuid": "^9.0.1"
+  }
+}
